@@ -5,8 +5,6 @@ source /usr/share/yunohost/helpers
 #=================================================
 # STANDARD REMOVE
 #=================================================
-# STOP AND REMOVE SERVICE
-#=================================================
 ynh_script_progression "Stopping and removing the systemd service..."
 
 # Remove the dedicated systemd config
